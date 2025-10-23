@@ -15,7 +15,7 @@ test_that("get_notes extracts correct variables", {
     )
   )
 
-  x <- get_notes(dfs)
+  x <- get_notes(dfs, NA)
   cx <- concat_notes(x)
   expect_equal(cx, "**Statistics**\n\nc\n\n**Data management (light)**\n\ncc\n\n**Data management (full)**\n\nddd\n\nccc")
   expect_equal(length(cx), 1)

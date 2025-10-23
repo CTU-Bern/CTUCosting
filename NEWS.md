@@ -1,3 +1,8 @@
+# CTUCosting 0.7.11 (2025-10-23)
+
+* ensure that notes field from generic form is included in the PDF
+* UNIBE projects are not subject to VAT
+
 # CTUCosting 0.7.10 (2025-09-24)
 
 * switch email addresses to operations.dcr

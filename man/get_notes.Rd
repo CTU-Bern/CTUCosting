@@ -4,10 +4,12 @@
 \alias{get_notes}
 \title{extract external note fields}
 \usage{
-get_notes(data)
+get_notes(data, meta)
 }
 \arguments{
 \item{data}{list of dataframes from get_data}
+
+\item{meta}{metadata from get_meta}
 }
 \description{
 extract external note fields

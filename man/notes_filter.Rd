@@ -4,7 +4,7 @@
 \alias{notes_filter}
 \title{filter notes based on selected workpackages}
 \usage{
-notes_filter(notes, selected_workpackages, fte)
+notes_filter(notes, selected_workpackages, fte, generic = TRUE)
 }
 \arguments{
 \item{notes}{list of notes from get_notes}
@@ -12,6 +12,8 @@ notes_filter(notes, selected_workpackages, fte)
 \item{selected_workpackages}{which packages have been selected}
 
 \item{fte}{logical - whether to include full time equivalent}
+
+\item{generic}{logical - whether to include the generic form}
 }
 \description{
 filter notes based on selected workpackages

@@ -36,6 +36,7 @@ params:
   include_int: TRUE
   include_participants: TRUE
   filename: "filename"
+  vat: FALSE
 ---
 
 <!-- ![](ub_Logo_english_2019_RGB_wb.png){.logo .right} -->
@@ -305,7 +306,7 @@ All costs mentioned above are rounded up to the nearest 1 CHF.
 if(any(grepl("Discount due to number of hours", params$total$Description))) 
   cat("The discount is calculated from eligible work packages and might not be based on the overall amount.\n\n")
 
-if(!params$internal) cat("Please consider that this cost estimate does not include VAT (8.1%) that might incur.")
+if(params$vat) cat("Please consider that this cost estimate does not include VAT (8.1%) which may apply.")
 ```
 
 The proposed hours may vary depending on the complexity of the trial. 

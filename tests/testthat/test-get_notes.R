@@ -3,7 +3,7 @@
 d <- get_testdata_r1()
 meta <- get_testdata_meta()
 #
-notes <- get_notes(d)
+notes <- get_notes(d, meta)
 #
 # concat_notes(notes)
 
