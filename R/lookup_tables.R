@@ -6,6 +6,7 @@ rateopts <- tibble::tribble(
 2, "External non-profit",
 3, "External for-profit",
 4, "SNF",
+5, "SNF 2026"
 )
 
 # lookup table of service to service name to division and formname
