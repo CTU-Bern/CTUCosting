@@ -1,3 +1,7 @@
+# CTUCosting 0.7.13 (2025-10-29)
+
+* Correct the discount for the new SNF rate
+
 # CTUCosting 0.7.12 (2025-10-28)
 
 * Add SNF 2026 rate

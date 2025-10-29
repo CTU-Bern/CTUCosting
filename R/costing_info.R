@@ -88,7 +88,7 @@ costing_info <- function(data, metadata){
       acronym =               data$study_abbr,
       initcosting =           initcosting,
       init_or_amendment_txt = init_or_amendment_txt,
-      snf =                   data$rate == 4,
+      snf =                   data$rate %in% 4:5,
       # dlf =                   dlf,
       # signatories
       sponsor =               inst,
