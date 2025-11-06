@@ -97,7 +97,7 @@ Bern, `r format(Sys.Date(), format = "%d.%m.%Y")`
 <p> </p>
 
 ```{r, echo = FALSE}
-htmltools::h4("Cost proposal for DCR services")
+htmltools::h4("Cost estimate for DCR services")
 if(!params$initcosting){
   htmltools::h5("Amendment to an existing service agreement")
 }

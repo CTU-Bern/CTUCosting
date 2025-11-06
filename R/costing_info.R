@@ -128,7 +128,8 @@ costing_info <- function(data, metadata){
       discount_chf =          ifelse(!is.na(data$discount_chf), data$discount_chf, 0),
       costing_txt =           ifelse(initcosting, data$costing_txt_init, data$costing_txt_amend),
       full_service_db =       fn(metadata, dmf, "dmf_cdms"),
-      vat =                   vat
+      vat =                   vat,
+      csm_matrix =            fn(metadata, data, "rrmatrix")
     )
   )
 

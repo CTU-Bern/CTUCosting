@@ -1,3 +1,8 @@
+# CTUCosting 0.7.14 (2025-11-06)
+
+* Support for R&R matrix
+* 'cost estimate' rather than 'cost proposal'
+
 # CTUCosting 0.7.13 (2025-10-29)
 
 * Correct the discount for the new SNF rate
