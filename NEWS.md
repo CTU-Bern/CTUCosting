@@ -1,3 +1,7 @@
+# CTUCosting 0.7.15 (2025-12-11)
+
+* update new head of gastroenterologie
+
 # CTUCosting 0.7.14 (2025-11-06)
 
 * Support for R&R matrix
