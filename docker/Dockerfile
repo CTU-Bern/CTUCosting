@@ -8,13 +8,14 @@ RUN apt-get update -qq && \
         libz-dev \
         libpoppler-cpp-dev \
         pandoc \
-        curl
+        curl \
+	libssl-dev
 
 RUN curl -L http://bit.ly/google-chrome-stable -o google-chrome-stable.deb && \
     apt-get -y install ./google-chrome-stable.deb && \
     rm google-chrome-stable.deb
 
-RUN Rscript -e 'install.packages(c("remotes"))'
+RUN Rscript -e 'install.packages(c("remotes", "websocket"))'
 
 RUN Rscript -e 'remotes::install_github("CTU-Bern/CTUCosting", dependencies = TRUE)'
 
