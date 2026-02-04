@@ -1,3 +1,7 @@
+# CTUCosting 0.7.16 (2026-02-04)
+
+* update new head of Notfallmedizin
+
 # CTUCosting 0.7.15 (2025-12-11)
 
 * update new head of gastroenterologie
