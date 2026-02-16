@@ -1,3 +1,7 @@
+# CTUCosting 0.7.17 (2026-02-16)
+
+* update new head of ISPM
+
 # CTUCosting 0.7.16 (2026-02-04)
 
 * update new head of Notfallmedizin
